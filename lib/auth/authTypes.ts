@@ -2,6 +2,7 @@ export interface User {
   id: string;
   email: string;
   name?: string;
+  password: string; // Added for local storage auth
   avatar?: string;
   createdAt: Date;
 }

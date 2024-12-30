@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import DottedMap from "dotted-map";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+import LoadingScreen from "@/components/LoadingScreen";
 
 interface MapProps {
   dots?: Array<{
@@ -15,7 +16,7 @@ interface MapProps {
 
 export function WorldMap({
   dots = [],
-  lineColor = "#3b82f6", // Default color for light mode
+  lineColor = "#3b82f6", 
   className = "",
 }: MapProps) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -57,7 +58,7 @@ export function WorldMap({
   };
 
   if (loading) {
-    return <div className="h-full w-full flex items-center justify-center bg-gray-300 dark:bg-gray-800">Loading...</div>; // Simple loading state
+    return <LoadingScreen />; // Use the LoadingScreen component instead of a simple loading state
   }
 
   return (

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
-import Navigation from '@/components/navigation';
+import Sidebar from '@/components/sidebar';
 import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,7 +27,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navigation />
+          <Sidebar />
           <main>{children}</main>
           <Footer />
           <Toaster />
