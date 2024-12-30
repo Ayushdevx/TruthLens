@@ -118,15 +118,15 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex items-center space-x-4 text-muted-foreground">
               <Mail className="h-4 w-4" />
-              <span>contact@truthlens.com</span>
+              <span>ayushdevxai@gmail.com</span>
             </div>
             <div className="flex items-center space-x-4 text-muted-foreground mt-2">
               <Phone className="h-4 w-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 9305183418</span>
             </div>
             <div className="flex items-center space-x-4 text-muted-foreground mt-2">
               <MapPin className="h-4 w-4" />
-              <span>123 Truth Street, Knowledge City</span>
+              <span>Vellore Institute of Technology ,Chennai</span>
             </div>
           </div>
           
@@ -157,11 +157,11 @@ const Footer: React.FC = () => {
             <div className="mt-6">
               <h3 className="text-lg font-semibold mb-4">Connect</h3>
               <div className="flex flex-wrap gap-2">
-                <SocialIcon href="https://github.com" icon={Github} />
-                <SocialIcon href="https://twitter.com" icon={Twitter} />
-                <SocialIcon href="https://facebook.com" icon={Facebook} />
-                <SocialIcon href="https://linkedin.com" icon={Linkedin} />
-                <SocialIcon href="https://instagram.com" icon={Instagram} />
+                <SocialIcon href="https://portfolio-eosin-nine-49.vercel.app/" icon={Github} />
+                <SocialIcon href="https://ayushupadhyay.carrd.co/" icon={Twitter} />
+                <SocialIcon href="https://ayushupadhyay.carrd.co/" icon={Facebook} />
+                <SocialIcon href="https://www.linkedin.com/in/ayushdevai/" icon={Linkedin} />
+                <SocialIcon href="https://ayushupadhyay.carrd.co/" icon={Instagram} />
               </div>
             </div>
           </div>
