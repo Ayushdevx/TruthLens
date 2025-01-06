@@ -25,7 +25,7 @@ interface AnalysisResult {
   warningFlags: string[];
 }
 
-const GEMINI_API_KEY = 'AIzaSyCE3O-0WvqJQb0sqxpcOSjzPcZ7pTa3ojc';
+const GEMINI_API_KEY = 'AIzaSyB3YyfnTUGdN6uVrT3rdx4tfHp7IBe4tj0';
 const BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 export class APIError extends Error {
