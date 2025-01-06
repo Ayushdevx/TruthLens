@@ -9,7 +9,7 @@ import { Progress } from '@/components/ui/progress';
 import { Upload, Image as ImageIcon, Loader2, AlertTriangle } from 'lucide-react';
 import Background3D from '@/components/Background3D';
 
-const GEMINI_API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY || 'AIzaSyCCYguhAkip0xMgN1074yYTYpn2SfLcL10';
+const GEMINI_API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY || AIzaSyB3YyfnTUGdN6uVrT3rdx4tfHp7IBe4tj0';
 // Updated to use Gemini 1.5 endpoint
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent';
 
