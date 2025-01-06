@@ -22,7 +22,7 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
 // Gemini API configuration
-const GEMINI_API_KEY = 'AIzaSyCCYguhAkip0xMgN1074yYTYpn2SfLcL10';
+const GEMINI_API_KEY = 'AIzaSyB3YyfnTUGdN6uVrT3rdx4tfHp7IBe4tj0';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 async function generateAIResponse(prompt) {
